@@ -1,0 +1,465 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* :root {
+      --navbar-height: 60px;
+  } */
+
+/* ---------------------------------Home page-------------------------------------------------- */
+
+#logo img {
+  margin-top: -20px;
+  /* font-size:-200px; */
+  /* margin-left: -100px; */
+  height: 150px;
+}
+
+#options {
+  margin-top: -90px;
+  margin-left: 1750px;
+}
+
+#option {
+  padding: 10px;
+  height: 50px;
+  width: 150px;
+  margin-left: -160px;
+  margin-top: -10px;
+  background: none;
+  border-radius: 10px;
+  font-size: 20px;
+  justify-content: center;
+  color: white;
+  border: 3px solid white;
+}
+
+.sign-in {
+  padding: 10px;
+  height: 50px;
+  width: 150px;
+  margin-left: 0px;
+  color: white;
+  background-color: red;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.sign-in a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.sign-in:hover {
+  background-color: rgb(228, 7, 7);
+}
+
+#home::before {
+  content: "";
+  /* background: rgb(6, 6, 73); */
+  background: url('https://help.nflxext.com/0af6ce3e-b27a-4722-a5f0-e32af4df3045_what_is_netflix_5_en.png') no-repeat center center/cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 1.60;
+  top: 0px;
+  left: 0px;
+}
+
+h1 {
+  margin-left: 200px;
+  margin-top: 150px;
+  font-size: 90px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+}
+
+p {
+  margin-top: 30px;
+  font-size: 40px;
+  color: white;
+  margin-left: 200px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.email p {
+  font-size: 30px;
+}
+
+.input-box {
+  text-align: center;
+  display: block;
+  padding: 12px;
+  font-size: 1.25rem;
+  margin-left: -630px;
+}
+
+.text {
+  border: 3px solid white;
+  padding-left: 12px;
+  /* border-radius: 10px; */
+  width: 600px;
+  height: 70px;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgb(27, 26, 26);
+  /* background: none; */
+  /* font-weight: bolder; */
+}
+
+.btn {
+  padding: 10px;
+  height: 70px;
+  width: 300px;
+  /* margin-left: 850px; */
+  margin-top: -200px;
+  background-color: red;
+  font-size: 30px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn:hover {
+  background-color: rgb(228, 7, 7);
+}
+
+/* ------------------------------Services Page------------------------------------------- */
+
+#services::before {
+  content: "";
+  /* background: rgb(6, 6, 73); */
+  /* background: url('https://www.shutterstock.com/image-illustration/violet-purple-red-dark-gradient-260nw-1007117992.jpg') no-repeat center center/cover ; */
+  background: url('https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-54362.jpg') no-repeat center center/cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.5;
+  top: 0px;
+  left: 0px;
+}
+
+#Services::before {
+  content: "";
+  /* background: rgb(1, 16, 50); */
+  /* background: url('https://www.shutterstock.com/image-illustration/violet-purple-red-dark-gradient-260nw-1007117992.jpg') no-repeat center center/cover ; */
+  background: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700326760.jpg') no-repeat center center/cover;
+  position: absolute;
+  height: 320%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.9;
+  top: 950px;
+  left: 0px;
+}
+
+/* .box{
+    width: 100px;
+  } */
+
+.h1 {
+  margin-top: 500px;
+  margin-left: 200px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.h2 {
+  margin-top: 200px;
+  margin-left: 1000px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.h3 {
+  margin-top: 250px;
+  margin-left: 200px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.h4 {
+  margin-top: 200px;
+  margin-left: 1000px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.box1 {
+  height: 450px;
+  width: 700px;
+  margin-top: -200px;
+  margin-left: 1000px;
+}
+
+.box2 {
+  height: 450px;
+  width: 700px;
+  margin-left: 100px;
+  margin-top: -150px;
+}
+
+.box3 {
+  height: 450px;
+  width: 700px;
+  margin-top: -150px;
+  margin-left: 1000px;
+}
+
+.box4 {
+  height: 450px;
+  width: 700px;
+  margin-left: 100px;
+  margin-top: -150px;
+}
+
+.p1 {
+  margin-top: -250px;
+  font-size: 30px;
+}
+
+.p2 {
+  margin-top: -300px;
+  margin-left: 1000px;
+  font-size: 30px;
+}
+
+.p3 {
+  margin-top: -300px;
+  font-size: 30px;
+}
+
+.p4 {
+  margin-top: -300px;
+  margin-left: 1000px;
+  font-size: 30px;
+}
+
+hr {
+  margin-top: 300px;
+  margin-left: 200px;
+  width: 1500px;
+  border: 5px solid white;
+}
+
+/* --------------------------------FAQ PAge ----------------------------------------------- */
+#ques h1 {
+  font-size: 50px;
+  color: white;
+}
+
+#Questions {
+  content: "";
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmNXNHlglITb79GBNC02eU70hEIj6_PiVq7Q&usqp=CAU') no-repeat center center/cover;
+  position: absolute;
+  height: 250%;
+  width: 100%;
+  z-index: -1;
+  opacity: 1.5;
+  top: 4000px;
+  left: 0px;
+}
+
+.faq-heading {
+  border-bottom: #777;
+  padding: 20px 60px;
+}
+
+.faq-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hr-line {
+  width: 70%;
+  margin: auto;
+
+}
+
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+  /* background-color: #eee; */
+  color: white;
+  cursor: pointer;
+  padding: 10px 10px;
+  width: 70%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: auto;
+  font-size: 30px;
+  margin-top: 100px;
+  margin-left: 280px;
+  /* font-size: 20px; */
+  /* display:flex; */
+}
+
+.faq-body {
+  /* margin: auto; */
+  /* text-align: center; */
+  width: 80%;
+  margin-left: 80px;
+  padding: auto;
+  font-size: 20px;
+  padding: 0 18px;
+  /* background-color: rgb(46, 46, 235); */
+  color: white;
+  display: none;
+  overflow: hidden;
+
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* .active,
+.faq-page:hover {
+  background-color: rgb(51, 51, 248);
+} */
+
+/* Style the faq-page panel. Note: hidden by default */
+
+.faq-page:after {
+  content: '\02795';
+  /* Unicode character for "plus" sign (+) */
+  font-size: 10px;
+  /* color: #777; */
+  float: right;
+  margin-left: 5px;
+  /* display:none; */
+}
+
+.active:after {
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */
+}
+
+
+/* -----------------------------Footer Section------------------------------------------------ */
+/* .footer {
+  background: #5d4d5d;
+} */
+
+.footer .box-container {
+  display: -ms-grid;
+  display: grid;
+  /* -ms-grid-columns: (minmax(25rem, 1fr)) [auto-fit]; */
+  /* grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); */
+  gap: 2rem;
+  margin-top: 1500px;
+  margin-left: 100px;
+}
+
+.footer .box-container .box h3 {
+  font-size: 2.2rem;
+  text-transform: capitalize;
+  color: white;
+  padding: 1rem 0;
+}
+
+.footer .box-container .box h3 i {
+  color: white;
+}
+
+.footer .box-container .box .share {
+  margin-top: 1rem;
+}
+
+.footer .box-container .box .share a {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 1.7rem;
+  background-color: white;
+  color: #fff;
+  margin-right: 0.3rem;
+  text-align: center;
+}
+
+.footer .box-container .box .share a:hover {
+  background-color: blue;
+}
+
+.footer .box-container .box .link {
+  font-size: 22px;
+  line-height: 2;
+  color: white;
+  padding: 0.5rem 0;
+  display: block;
+}
+
+.footer .box-container .box .link:hover {
+  color: #b9baf7;
+  text-decoration: underline;
+}
+
+.footer .box-container .box p {
+  /* font-size: 1.5rem; */
+  line-height: 2;
+  color: white;
+  padding: 1rem 0;
+}
+
+.footer .box-container .box .email {
+  width: 100%;
+  padding: 1.2rem 1.4rem;
+  /* font-size: 1.6rem; */
+  border: 0.1rem solid #0eb582;
+  margin-bottom: 1rem;
+}
+
+.footer .credit {
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 3rem;
+  font-size: 2rem;
+  text-transform: capitalize;
+  /* color: #444;  */
+  border-top: 0.1rem solid #0eb582;
+}
+
+.footer .credit span {
+  color: #0eb582;
+}
+
+.box_1{
+  margin-left: 50px;
+  font-size: 10px;
+}
+
+.box_2{
+  margin-left: 400px;
+  margin-top: -248px;
+}
+
+.box_3{
+  margin-left: 800px;
+  margin-top: -245px;
+}
+
+.box_4{
+  margin-left: 1200px;
+  margin-top: -245px;
+}
+
+/* ---------------------------------Sign in Page-------------------------------------------- */
+
